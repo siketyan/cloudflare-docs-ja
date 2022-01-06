@@ -1,5 +1,5 @@
 ---
-title: Documentation
+title: ドキュメント
 type: developers-site
 ---
 
@@ -10,9 +10,9 @@ import HeroBlock from "../components/hero-block.js"
 
 <Stripe>
 
-# Documentation
+# ドキュメント
 
-API reference, how-to guides, tutorials, example code, and more.
+API リファレンス， How-to ガイド，チュートリアル，コード例など．
 
 </Stripe>
 
@@ -23,7 +23,7 @@ API reference, how-to guides, tutorials, example code, and more.
 
 <span style="font-size: 1.25em; text-align: center">
 
-## Featured
+## 特集
 
 </span>
 
@@ -31,24 +31,24 @@ API reference, how-to guides, tutorials, example code, and more.
   <div>
     <HeroBlock>
       <h2>Cloudflare Workers</h2>
-      <p>Serverless execution environment that allows you to create entirely new applications or augment existing ones without configuring or maintaining infrastructure.</p>
+      <p>インフラストラクチャの構築や管理なしで，新しいアプリケーションを構築したり既存のアプリケーションを改善したりできる，サーバレス実行環境を提供します．.</p>
       <ul>
-        <li><p><a href="https://developers.cloudflare.com/workers/learning/getting-started">Getting Started</a></p></li>
-        <li><p><a href="https://developers.cloudflare.com/workers/starters">Starter Templates</a></p></li>
-        <li><p><a href="https://developers.cloudflare.com/workers/tutorials">Workers Tutorials</a></p></li>
-        <li><p><a href="https://cloudflareworkers.com/#36ebe026bf3510a2e5acace89c09829f:about:blank">Playground</a></p></li>
+        <li><p><a href="https://developers.cloudflare.com/workers/learning/getting-started">始める</a></p></li>
+        <li><p><a href="https://developers.cloudflare.com/workers/starters">最初のテンプレート</a></p></li>
+        <li><p><a href="https://developers.cloudflare.com/workers/tutorials">Workers のチュートリアル</a></p></li>
+        <li><p><a href="https://cloudflareworkers.com/#36ebe026bf3510a2e5acace89c09829f:about:blank">プレイグラウンド</a></p></li>
       </ul>
     </HeroBlock>
   </div>
 
   <div>
     <HeroBlock>
-      <h2>Integrate &amp; Automate</h2>
-      <p>Use Cloudflare’s API to do just about anything you can do on cloudflare.com via the customer dashboard. Get the most out of Cloudflare for Teams products which integrate together.</p>
+      <h2>連携 &amp; 自動化</h2>
+      <p>Cloudflare の API を使えば cloudflare.com のダッシュボードでできることを顧客のダッシュボードからできます．チームのための Cloudflare 製品で連携しましょう．</p>
       <ul>
-        <li><p><a href="https://api.cloudflare.com/">API docs</a></p></li>
-        <li><p><a href="https://cloudflare.com/integrations/">Integration resources</a></p></li>
-        <li><p><a href="https://developers.cloudflare.com/cloudflare-one/">Cloudflare for Teams</a></p></li>
+        <li><p><a href="https://api.cloudflare.com/">API ドキュメント</a></p></li>
+        <li><p><a href="https://cloudflare.com/integrations/">連携について</a></p></li>
+        <li><p><a href="https://developers.cloudflare.com/cloudflare-one/">チームのための Cloudflare</a></p></li>
       </ul>
     </HeroBlock>
   </div>
