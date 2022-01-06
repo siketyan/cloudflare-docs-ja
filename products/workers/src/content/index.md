@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: 概要
 order: 0
 type: overview
 pcx-content-type: landing-page
@@ -7,37 +7,40 @@ pcx-content-type: landing-page
 
 <ContentColumn>
 
-# Cloudflare Workers documentation
+# Cloudflare Workers ドキュメント
 
-Cloudflare Workers provides a [serverless](https://www.cloudflare.com/learning/serverless/what-is-serverless/) execution environment that allows you to create entirely new applications or augment existing ones without configuring or maintaining infrastructure.
+Cloudflare Workers は，インフラストラクチャの構築や管理なしで，新しいアプリケーションを構築したり既存のアプリケーションを改善したりできる，
+[サーバレス](https://www.cloudflare.com/learning/serverless/what-is-serverless/) 実行環境を提供します．
 
 <ButtonGroup>
-  <Button type="primary" href="/get-started/guide">Get started</Button>
-  <Button type="secondary" href="/tutorials">View the tutorials</Button>
+  <Button type="primary" href="/get-started/guide">開始する</Button>
+  <Button type="secondary" href="/tutorials">チュートリアルを見る</Button>
 </ButtonGroup>
 
 --------------------------------
 
-## Installing the Workers CLI
+## Workers CLI のインストール
 
-To install [`wrangler`](https://github.com/cloudflare/wrangler), ensure you have [`npm` installed](https://www.npmjs.com/get-npm), preferably using a Node version manager like [Volta](https://volta.sh/) or [nvm](https://github.com/nvm-sh/nvm) to avoid permission issues, then run:
+[`wrangler`](https://github.com/cloudflare/wrangler) をインストールするには，[`npm`](https://www.npmjs.com/get-npm) がインストールされている必要があります． 
+[Volta](https://volta.sh/) や [nvm](https://github.com/nvm-sh/nvm) といった Node.js のバージョン管理ソフトウェアを利用して権限の問題を回避できます．
+そして実行します:
 
 ```sh
 $ npm install -g @cloudflare/wrangler
 ```
-or install with yarn:
+yarn を使ってインストールすることもできます:
 
 ```sh
 $ yarn global add @cloudflare/wrangler
 ```
 
-Read more about [installing `wrangler`](/cli-wrangler/install-update).
+詳しくは [`wrangler` のインストール](/cli-wrangler/install-update) を参照してください．
 
 --------------------------------
 
-## Playground
+## プレイグラウンド
 
-View this Hello World example in the Workers playground:
+この Hello World の例を Workers プレイグラウンドでご覧ください:
 
 ```javascript
 addEventListener("fetch", event => {
@@ -50,30 +53,30 @@ async function handleRequest(request) {
 ```
 
 <ButtonGroup>
-  <Button type="primary" href="https://cloudflareworkers.com/#36ebe026bf3510a2e5acace89c09829f:about:blank">Launch playground</Button>
-  <Button type="secondary" href="/learning/playground">Learn more</Button>
+  <Button type="primary" href="https://cloudflareworkers.com/#36ebe026bf3510a2e5acace89c09829f:about:blank">プレイグラウンドを起動</Button>
+  <Button type="secondary" href="/learning/playground">詳しく知る</Button>
 </ButtonGroup>
 
 --------------------------------
 
-## Popular pages
+## 人気のページ
 
-- [Learning: How Workers works](/learning/how-workers-works) – learn how Cloudflare’s global network powers Workers
-- [Pricing](/platform/pricing) – learn about the Free and Bundled plans
-- [Reference: HTMLRewriter](/runtime-apis/html-rewriter) – parse and transform HTML from inside a Worker
-- [Limits](/platform/limits) – learn about plan limits (e.g. free plans get 100,000 req/day)
-
---------------------------------
-
-## Community
-[Explore third-party packages](https://workers.cloudflare.com/works) that work on Workers, submitted by Cloudflare users.
-
-[Connect with the Workers community on Discord](https://discord.gg/cloudflaredev) to ask questions, show off what you are building, and discuss the platform with other developers. 
-
-[Follow @CloudflareDev on Twitter](https://twitter.com/cloudflaredev) to learn about product announcements, new tutorials, and what is new in Cloudflare Workers.
+- [学ぶ: Workers の仕組み](/learning/how-workers-works) – Cloudflare のグローバルネットワークがどのように Workers を動かしているかを知る
+- [料金](/platform/pricing) – 無料プランとバンドルされたプランについて知る
+- [リファレンス: HTMLRewriter](/runtime-apis/html-rewriter) – Worker で HTML を読み書きする
+- [制限](/platform/limits) – プランの制限について知る (例: フリープランでは 100,000 リクエスト/日)
 
 --------------------------------
 
-These docs are built with the [Cloudflare Docs Engine](https://developers.cloudflare.com/docs-engine/).
+## コミュニティ
+Cloudflare ユーザによって投稿された Workers で動作する [サードパーティのパッケージを探す](https://workers.cloudflare.com/works) ．
+
+[Discord で Workers コミュニティへ参加](https://discord.gg/cloudflaredev) して他の開発者に質問したり，あなたの作品を披露したり，プラットフォームについて議論したりできます． 
+
+[Twitter で @CloudflareDev をフォロー](https://twitter.com/cloudflaredev) して製品のお知らせや新しいチュートリアル， Cloudflare Workers の新機能を受け取ることができます．
+
+--------------------------------
+
+このドキュメントは [Cloudflare Docs Engine](https://developers.cloudflare.com/docs-engine/) を用いてビルドされました．
 
 </ContentColumn>
