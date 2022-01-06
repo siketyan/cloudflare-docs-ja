@@ -10,55 +10,55 @@ jobs:
     name: "Check for docs changes"
     runs-on: ubuntu-latest
     outputs:
-      developers-site: ${{ steps.filter.outputs.developers-site }}
-      onedot: ${{ steps.filter.outputs.onedot }}
-      analytics: ${{ steps.filter.outputs.analytics }}
-      api: ${{ steps.filter.outputs.api }}
-      api-shield: ${{ steps.filter.outputs.api-shield }}
-      automatic-platform-optimization: ${{ steps.filter.outputs.automatic-platform-optimization }}
-      bots: ${{ steps.filter.outputs.bots }}
-      byoip: ${{ steps.filter.outputs.byoip }}
-      cache: ${{ steps.filter.outputs.cache }}
-      client-ip-geolocation: ${{ steps.filter.outputs.client-ip-geolocation }}
-      cloudflare-one: ${{ steps.filter.outputs.cloudflare-one }}
-      ddos-protection: ${{ steps.filter.outputs.ddos-protection }}
-      dns: ${{ steps.filter.outputs.dns }}
-      distributed-web: ${{ steps.filter.outputs.distributed-web }}
-      docs-engine: ${{ steps.filter.outputs.docs-engine }}
-      email-routing: ${{ steps.filter.outputs.email-routing }}
-      events: ${{ steps.filter.outputs.events }}
-      firewall: ${{ steps.filter.outputs.firewall }}
-      fundamentals: ${{ steps.filter.outputs.fundamentals }}
-      browser-isolation: ${{ steps.filter.outputs.browser-isolation }}
-      http3: ${{ steps.filter.outputs.http3 }}
-      images: ${{ steps.filter.outputs.images }}
-      load-balancing: ${{ steps.filter.outputs.load-balancing }}
-      logs: ${{ steps.filter.outputs.logs }}
-      magic-firewall: ${{ steps.filter.outputs.magic-firewall }}
-      magic-transit: ${{ steps.filter.outputs.magic-transit }}
-      magic-wan: ${{ steps.filter.outputs.magic-wan }}
-      network-error-logging: ${{ steps.filter.outputs.network-error-logging }}
-      network-interconnect: ${{ steps.filter.outputs.network-interconnect }}
-      pages: ${{ steps.filter.outputs.pages }}
-      page-shield: ${{ steps.filter.outputs.page-shield }}
-      partners: ${{ steps.filter.outputs.partners }}
-      railgun: ${{ steps.filter.outputs.railgun }}
-      randomness-beacon: ${{ steps.filter.outputs.randomness-beacon }}
-      registrar: ${{ steps.filter.outputs.registrar }}
-      rules: ${{ steps.filter.outputs.rules }}
-      ruleset-engine: ${{ steps.filter.outputs.ruleset-engine }}
-      security-center: ${{ steps.filter.outputs.security-center }}
-      spectrum: ${{ steps.filter.outputs.spectrum }}
-      ssl: ${{ steps.filter.outputs.ssl }}
-      stream: ${{ steps.filter.outputs.stream }}
-      tenant: ${{ steps.filter.outputs.tenant }}
-      terraform: ${{ steps.filter.outputs.terraform }}
-      time-services: ${{ steps.filter.outputs.time-services }}
-      warp-client: ${{ steps.filter.outputs.warp-client }}
-      waf: ${{ steps.filter.outputs.waf }}
-      waiting-room: ${{ steps.filter.outputs.waiting-room }}
-      workers: ${{ steps.filter.outputs.workers }}
-      zaraz: ${{ steps.filter.outputs.zaraz }}
+      developers-site: true
+      onedot: true
+      analytics: true
+      api: true
+      api-shield: true
+      automatic-platform-optimization: true
+      bots: true
+      byoip: true
+      cache: true
+      client-ip-geolocation: true
+      cloudflare-one: true
+      ddos-protection: true
+      dns: true
+      distributed-web: true
+      docs-engine: true
+      email-routing: true
+      events: true
+      firewall: true
+      fundamentals: true
+      browser-isolation: true
+      http3: true
+      images: true
+      load-balancing: true
+      logs: true
+      magic-firewall: true
+      magic-transit: true
+      magic-wan: true
+      network-error-logging: true
+      network-interconnect: true
+      pages: true
+      page-shield: true
+      partners: true
+      railgun: true
+      randomness-beacon: true
+      registrar: true
+      rules: true
+      ruleset-engine: true
+      security-center: true
+      spectrum: true
+      ssl: true
+      stream: true
+      tenant: true
+      terraform: true
+      time-services: true
+      warp-client: true
+      waf: true
+      waiting-room: true
+      workers: true
+      zaraz: true
     steps:
       - uses: actions/checkout@v2
       - uses: dorny/paths-filter@v2.4.2
