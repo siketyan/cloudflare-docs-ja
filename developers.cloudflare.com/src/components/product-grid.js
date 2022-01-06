@@ -26,7 +26,7 @@ const useProducts = () => {
 
 
 const ProductGridLink = ({ product }) => (
-  <a className="ProductGrid--link" data-wrap-title={product.wrap} href={product.href || `https://developers.cloudflare.com/${product.path}`}>
+  <a className="ProductGrid--link" data-wrap-title={product.wrap} href={product.href || `https://${product.path}.cloudflare-docs-ja.workers.dev/${product.path}`}>
     <div dangerouslySetInnerHTML={{__html: product.logoSVGContent}} />
     <span>{product.title}</span>
   </a>
