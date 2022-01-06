@@ -1,13 +1,13 @@
-name = "developers-cloudflare-com"
+name = "cloudflare-docs-ja"
 type = "webpack"
-account_id = "b54f07a6c269ecca2fa60f1ae4920c99" # cloudflare-docs.workers.dev
+account_id = "cd3f769b533ddce3ba2d5a0041509950"
 workers_dev = true
 
 [env.production]
 workers_dev = false
-account_id = "b54f07a6c269ecca2fa60f1ae4920c99" # cloudflare-docs.workers.dev
-zone_id = "351cf9fc660523187714fa772ad5ca49"
-route = "https://developers.cloudflare.com/*"
+account_id = "cd3f769b533ddce3ba2d5a0041509950"
+zone_id = "351cf9fc660523187714fa772ad5ca49" # TODO
+route = "https://developers.cloudflare.com/*" # TODO
 kv_namespaces = [
     { binding = "REDIRECTS", id = "42719e2c4502479e9145f347015e5b34" }
 ]
