@@ -4,6 +4,6 @@ order: 7
 pcx-content-type: navigation
 ---
 
-# Command-line (Wrangler)
+# コマンドライン (Wrangler)
 
 <DirectoryListing path="/cli-wrangler"/>
