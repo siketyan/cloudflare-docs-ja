@@ -3,70 +3,75 @@ order: 1
 pcx-content-type: how-to
 ---
 
-# Authentication
+# 認証
 
-## Background
+## 背景
 
-In Cloudflare’s system, you have a User that can have multiple Accounts and Zones. As a result, your User is configured globally on your machine via a single Cloudflare Token. Your Account(s) and Zone(s) will be configured per project, but will use your Cloudflare Token to authenticate all API calls. A configuration file is created in a `.wrangler` directory in your computer’s home directory.
+Cloudflare のシステムでは，ユーザは複数のアカウントとゾーンを持つことができます．
+したがって，あなたのユーザは一つの Cloudflare トークンによってマシン上でグローバルに構成されます．
+あなたのアカウントとゾーンはプロジェクトごとに設定されますが， API コールのための認証には Cloudflare トークンが使われます．
+設定ファイルはコンピュータのホームディレクトリにある `.wrangler` ディレクトリに作成されます．
 
 --------------------------------
 
-### Using commands
+### コマンドを使う
 
-To set up `wrangler` to work with your Cloudflare user, use the following commands:
+`wrangler` をあなたの Cloudflare ユーザで使うには，これらのコマンドを使います:
 
-- `login`: a command that opens a Cloudflare account login page to authorize Wrangler.
-- `config`: an alternative to `login` that prompts you to enter your `email` and `api` key.
-- `whoami`: run this command to confirm that your configuration is appropriately set up. When successful, this command will print out your account email and your `account_id` needed for your project's `wrangler.toml` file.
+- `login`: ログインページを開いて Wrangler を認可するコマンド．
+- `config`: `login` の代替としてあなたの `email` と `api` キーを入力するコマンド．
+- `whoami`: 設定が正しくされているか確かめるコマンド．成功すると，プロジェクトの `wrangler.toml` ファイルに必要な，あなたのアカウントの E メールアドレスと `account_id` を出力します．
 
-### Using environment variables
+### 環境変数を使う
 
-You can also configure your global user with environment variables. This is the preferred method for using Wrangler in CI (continuous integration) environments.
+グローバルユーザを環境変数で設定することもできます．
+Wrangler を CI (continuous integration) 環境で用いる場合に優先されるべき方法です．
 
-To customize the authentication tokens that Wrangler uses, you may provide the `CF_ACCOUNT_ID` and `CF_API_TOKEN` environment variables when running any `wrangler` command. The account ID may be obtained from the Cloudflare dashboard in **Overview** and you may [create or reuse an existing API token](#generate-tokens).
+Wrangler が利用する認証トークンを変更するために，何らかの `wrangler` コマンドを使うときに `CF_ACCOUNT_ID` および `CF_API_TOKEN` 環境変数を設定できます．
+アカウント ID は Cloudflare ダッシュボードの **Overview** から得られるほか， [トークンを生成](#generate-tokens) することもできます．
 
 ```sh
 $ CF_ACCOUNT_ID=accountID CF_API_TOKEN=veryLongAPIToken wrangler publish
 ```
 
-Alternatively, you may use the `CF_EMAIL` and `CF_API_KEY` environment variable combination instead:
+代わりとして `CF_EMAIL` と `CF_API_KEY` 環境変数の組み合わせを使うこともできます:
 
 ```sh
 $ CF_EMAIL=cloudflareEmail CF_API_KEY=veryLongAPI wrangler publish
 ```
 
-You can also specify or override the target Zone ID by defining the `CF_ZONE_ID` environment variable.
+ターゲットとなるゾーン ID を `CF_ZONE_ID` 環境変数で指定したり上書きしたりすることもできます．
 
-Defining environment variables inline will override the default credentials stored in `wrangler config` or in your `wrangler.toml` file.
+環境変数をインラインで定義すると， `wrangler config` や `wrangler.toml` ファイルでの設定は上書きされます．
 
 --------------------------------
 
-## Generate Tokens
+## トークンの生成
 
-### API token
+### API トークン
 
-1. In **Overview**, select [**Get your API token**](https://developers.cloudflare.com/api/tokens/create).
-2. After being taken to the **Profile** page, select **Create token**.
-3. Under the **API token templates** section, find the **Edit Cloudflare Workers** template and select **Use template**.
-4. Fill out the rest of the fields and then select **Continue to summary**, where you can select **Create Token** and issue your token for use.
+1. **Overview** で [**Get your API token**](https://developers.cloudflare.com/api/tokens/create) を選択します．
+2. **Profile** ページへ遷移後， **Create token** を選択します．
+3. **API token templates** セクション下の **Edit Cloudflare Workers** テンプレートを探し **Use template** を選択します．
+4. フィールドの残りを埋めて **Continue to summary**　を選択し， **Create Token** を選択して使用するトークンを取得します．
 
-### Global API Key
+### グローバル API キー
 
-1. In **Overview**, select **Get your API token**.
-2. After being taken to the **Profile** page, scroll to **API Keys**.
-3. Select **View** to copy your **Global API Key**.\*
+1. **Overview** で **Get your API token** を選択します．
+2. **Profile** ページへ遷移後， **API Keys** までスクロールします．
+3. **View** を選択して **Global API Key** をコピーします．
 
-<Aside type="warning" header="Warning">
+<Aside type="warning" header="注意">
 
-\* Treat your Global API Key like a password. It should not be stored in version control or in your code – use environment variables if possible.
+グローバル API キーはパスワードのように扱ってください．これはコードやバージョン管理システムに補完されるべきではありません．可能であれば環境変数を用いてください．
 
 </Aside>
 
 --------------------------------
 
-## Use Tokens
+## トークンを使う
 
-After getting your token or key, you can set up your default credentials on your local machine by running `wrangler config`:
+トークンかキーを取得後，マシン上で既定の資格情報を `wrangler config` で設定できます:
 
 ```bash
 $ wrangler config
@@ -74,7 +79,7 @@ Enter API token:
 superlongapitoken
 ```
 
-Use the `--api-key` flag to instead configure with email and global API key:
+`--api-key` フラグを使用して， E メールアドレスおよびグローバル API キーの代わりに使用できます:
 
 ```bash
 $ wrangler config --api-key
