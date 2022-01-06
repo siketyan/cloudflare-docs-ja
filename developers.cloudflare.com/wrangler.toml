@@ -1,11 +1,12 @@
 name = "cloudflare-docs-ja"
 type = "webpack"
-account_id = "cd3f769b533ddce3ba2d5a0041509950"
+account_id = "0b3bd5b90e1a2cb2f45e2f1368546def"
+route = "https://cloudflare-docs-ja.workers.dev/*"
 workers_dev = true
 
 [env.production]
 workers_dev = false
-account_id = "cd3f769b533ddce3ba2d5a0041509950"
+account_id = "0b3bd5b90e1a2cb2f45e2f1368546def"
 zone_id = "351cf9fc660523187714fa772ad5ca49" # TODO
 route = "https://developers.cloudflare.com/*" # TODO
 kv_namespaces = [
