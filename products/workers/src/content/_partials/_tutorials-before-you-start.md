@@ -1,3 +1,3 @@
-## Before you start
+## 始める前に
 
-All of the tutorials assume you have already completed the [Get started guide](/get-started/guide), which gets you set up with a Cloudflare Workers account, and the Workers CLI tool, [Wrangler](https://github.com/cloudflare/wrangler).
+各チュートリアルを進めるためには，[最初のガイド](/get-started/guide) を読み， Cloudflare Workers アカウントと Workers の CLI ツールである [Wrangler](https://github.com/cloudflare/wrangler) を用意する必要があります．
