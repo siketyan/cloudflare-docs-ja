@@ -1,5 +1,5 @@
 ---
-title: Sponsorships
+title: スポンサーシップ
 type: developers-site
 ---
 
@@ -8,11 +8,11 @@ import Sponsorships from "../components/sponsorships/index.js"
 
 <Stripe>
 
-# Sponsorships
+# スポンサーシップ
 
-Cloudflare powers over 20 million Internet properties, including these world-changing open-source projects.
+Cloudflare は，世界を変えるようなオープンソースプロジェクトを含む 20 億を超えるインターネット資源を動かしています．
 
-<!-- p><Button type="primary" href="#apply">Apply for sponsorship</Button></p -->
+<!-- p><Button type="primary" href="#apply">スポンサーシップに応募</Button></p -->
 
 </Stripe>
 

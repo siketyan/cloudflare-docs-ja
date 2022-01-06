@@ -36,7 +36,7 @@ const SiteHeader = () => (
           <span>ドキュメント</span>
         </Link>
         <Link className="SiteHeader--nav-link" to="/sponsorships">
-          <span>スポンサー</span>
+          <span>スポンサーシップ</span>
         </Link>
         <a className="SiteHeader--nav-link" href="https://cloudflare.github.io">
           <span>オープンソース</span>
