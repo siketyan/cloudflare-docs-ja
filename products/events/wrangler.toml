@@ -1,11 +1,11 @@
 name = "events"
 type = "webpack"
 workers_dev = true
-account_id = "b54f07a6c269ecca2fa60f1ae4920c99" # cloudflare-docs.workers.dev
+account_id = "cd3f769b533ddce3ba2d5a0041509950" # cloudflare-docs.workers.dev
 
 [env.production]
 workers_dev = false
-account_id = "b54f07a6c269ecca2fa60f1ae4920c99"
+account_id = "cd3f769b533ddce3ba2d5a0041509950"
 zone_id = "351cf9fc660523187714fa772ad5ca49"
 route = "https://developers.cloudflare.com/events*"
 

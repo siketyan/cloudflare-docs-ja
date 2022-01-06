@@ -189,6 +189,7 @@ jobs:
           workingDirectory: "developers.cloudflare.com"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -223,6 +224,7 @@ jobs:
           workingDirectory: "products/1.1.1.1"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -257,6 +259,7 @@ jobs:
           workingDirectory: "products/analytics"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -291,6 +294,7 @@ jobs:
           workingDirectory: "products/api"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -325,6 +329,7 @@ jobs:
           workingDirectory: "products/api-shield"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -359,6 +364,7 @@ jobs:
           workingDirectory: "products/automatic-platform-optimization"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -393,6 +399,7 @@ jobs:
           workingDirectory: "products/bots"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -426,6 +433,7 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           workingDirectory: "products/byoip"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -458,6 +466,7 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           workingDirectory: "products/client-ip-geolocation"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -490,6 +499,7 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           workingDirectory: "products/cache"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -523,6 +533,7 @@ jobs:
           workingDirectory: "products/cloudflare-one"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -557,6 +568,7 @@ jobs:
           workingDirectory: "products/dns"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -591,6 +603,7 @@ jobs:
           workingDirectory: "products/ddos-protection"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -625,6 +638,7 @@ jobs:
           workingDirectory: "products/distributed-web"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -659,6 +673,7 @@ jobs:
           workingDirectory: "products/docs-engine"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -693,6 +708,7 @@ jobs:
           workingDirectory: "products/email-routing"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -727,6 +743,7 @@ jobs:
           workingDirectory: "products/events"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -761,6 +778,7 @@ jobs:
           workingDirectory: "products/firewall"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -795,6 +813,7 @@ jobs:
           workingDirectory: "products/fundamentals"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -829,6 +848,7 @@ jobs:
           workingDirectory: "products/browser-isolation"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -863,6 +883,7 @@ jobs:
           workingDirectory: "products/http3"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -897,6 +918,7 @@ jobs:
           workingDirectory: "products/images"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -931,6 +953,7 @@ jobs:
           workingDirectory: "products/load-balancing"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -965,6 +988,7 @@ jobs:
           workingDirectory: "products/logs"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -999,6 +1023,7 @@ jobs:
           workingDirectory: "products/magic-firewall"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1033,6 +1058,7 @@ jobs:
           workingDirectory: "products/magic-transit"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1067,6 +1093,7 @@ jobs:
           workingDirectory: "products/magic-wan"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1101,6 +1128,7 @@ jobs:
           workingDirectory: "products/network-error-logging"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1135,6 +1163,7 @@ jobs:
           workingDirectory: "products/network-interconnect"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1169,6 +1198,7 @@ jobs:
           workingDirectory: "products/pages"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1210,6 +1240,7 @@ jobs:
           workingDirectory: "products/page-shield"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1244,6 +1275,7 @@ jobs:
           workingDirectory: "products/partners"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1277,6 +1309,7 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           workingDirectory: "products/railgun"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1310,6 +1343,7 @@ jobs:
           workingDirectory: "products/randomness-beacon"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1344,6 +1378,7 @@ jobs:
           workingDirectory: "products/registrar"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1377,6 +1412,7 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           workingDirectory: "products/rules"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1409,6 +1445,7 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           workingDirectory: "products/ruleset-engine"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1442,6 +1479,7 @@ jobs:
           workingDirectory: "products/security-center"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1476,6 +1514,7 @@ jobs:
           workingDirectory: "products/spectrum"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1510,6 +1549,7 @@ jobs:
           workingDirectory: "products/ssl"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1544,6 +1584,7 @@ jobs:
           workingDirectory: "products/stream"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1578,6 +1619,7 @@ jobs:
           workingDirectory: "products/tenant"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1612,6 +1654,7 @@ jobs:
           workingDirectory: "products/terraform"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1646,6 +1689,7 @@ jobs:
           workingDirectory: "products/time-services"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1680,6 +1724,7 @@ jobs:
           workingDirectory: "products/waf"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1714,6 +1759,7 @@ jobs:
           workingDirectory: "products/waiting-room"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1748,6 +1794,7 @@ jobs:
           workingDirectory: "products/warp-client"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1782,6 +1829,7 @@ jobs:
           workingDirectory: "products/workers"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -1823,6 +1871,7 @@ jobs:
           workingDirectory: "products/zaraz"
           wranglerVersion: "1.13.0"
       - name: Publish production
+        if: 'false'
         uses: cloudflare/wrangler-action@1.2.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
