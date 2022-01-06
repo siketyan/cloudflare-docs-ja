@@ -13,9 +13,9 @@ import HeroBlock from "../components/hero-block.js"
 
 <Stripe>
 
-# Your imagination, Cloudflare’s infrastructure
+# あなたの創造， Cloudflare のインフラストラクチャ
 
-Use Cloudflare’s API and edge network — which spans 200 cities in more than 100 countries — to build ultra-fast applications with best-in-class security.
+100 か国以上のおよそ 200 都市にも及ぶ Cloudflare の API とエッジネットワークを利用して超高速で超堅牢なアプリケーションを構築しましょう．
 
 </Stripe>
 
@@ -27,33 +27,33 @@ Use Cloudflare’s API and edge network — which spans 200 cities in more than 
 <HeroBlockGrid>
   <div>
     <HeroBlock>
-      <h2>Serverlist Newsletter</h2>
-      <p>The Serverlist is a Cloudflare-curated newsletter about all things serverless. You can expect to get the latest scoop on the serverless space, get your hands dirty with new developer tutorials, engage in conversations with other serverless developers, and find upcoming meetups and conferences to attend.</p>
-      <p><a class="Button Button-is-docs-secondary" href="https://blog.cloudflare.com/serverlist/">Subscribe</a></p>
+      <h2>Serverlist ニュース</h2>
+      <p>Serverlist は Cloudflare によるサーバレスについてのニュースレターです．サーバレスの世界の最新情報を手に入れ，新しい開発者向けチュートリアルで汗を流し，他のサーバレス開発者とつながり，出席できるミートアップやカンファレンスを探しましょう．</p>
+      <p><a class="Button Button-is-docs-secondary" href="https://blog.cloudflare.com/serverlist/">購読する</a></p>
     </HeroBlock>
     <br/>
     <br/>
     <br/>
     <HeroBlock>
-      <h2>Community</h2>
-      <p>The Cloudflare community is a place for Cloudflare users to share ideas, answers, code and compare notes.</p>
+      <h2>コミュニティ</h2>
+      <p>Cloudflare コミュニティは Cloudflare ユーザがアイデアを共有し，質問に答え，コードを書き，意見を交換するための場所です．</p>
       <ul>
         <li><p><a href="https://twitter.com/CloudflareDev" rel="noopener noreferrer" target="_blank">Twitter</a></p></li>
-        <li><p><a href="https://blog.cloudflare.com/">Blog</a></p></li>
-        <li><p><a href="https://community.cloudflare.com/">Community Forum</a></p></li>
+        <li><p><a href="https://blog.cloudflare.com/">ブログ</a></p></li>
+        <li><p><a href="https://community.cloudflare.com/">コミュニティフォーラム</a></p></li>
         <li><p><a href="https://stackoverflow.com/questions/tagged/cloudflare?sort=votes&amp;pageSize=15/" rel="noopener noreferrer" target="_blank">Stack Overflow</a></p></li>
-        <li><p><a href="https://cloudflare.github.io/" rel="noopener noreferrer" target="_blank">Cloudflare Open Source</a></p></li>
+        <li><p><a href="https://cloudflare.github.io/" rel="noopener noreferrer" target="_blank">Cloudflare オープンソース</a></p></li>
       </ul>
     </HeroBlock>
     <br/>
     <br/>
     <br/>
     <HeroBlock>
-      <h2>Meetup Groups</h2>
-      <p>Join our Real World Serverless meetup groups across the world.</p>
+      <h2>ミートアップグループ</h2>
+      <p>世界中にあるサーバレスのミートアップグループに参加しましょう．</p>
       <ul>
-        <li><a href="https://www.meetup.com/Real-World-Serverless-London/">London</a></li>
-        <li><a href="https://developers.cloudflare.com/events/">See our past events</a></li>
+        <li><a href="https://www.meetup.com/Real-World-Serverless-London/">ロンドン</a></li>
+        <li><a href="https://developers.cloudflare.com/events/">過去のイベントを見る</a></li>
       </ul>
     </HeroBlock>
   </div>

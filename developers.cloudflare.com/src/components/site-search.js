@@ -43,7 +43,7 @@ const SiteSearch = () => {
       algoliaOptions
     }
   } = siteMetadata.cloudflareDocs
-  
+
   const enableSearch = indexName && apiKey && algoliaOptions
 
   let [scriptAdded, setScriptAdded] = useState(false)
@@ -98,7 +98,7 @@ const SiteSearch = () => {
           }
           window.location.href = url.toString()
         },
-        
+
         transformData: function(hits) {
           // Remove empty results
           for (let i = hits.length - 1; i >= 0; i -= 1) {
@@ -108,7 +108,7 @@ const SiteSearch = () => {
           }
         }
       })
-  
+
       const autocompleteWrapper = search.autocomplete.autocomplete.getWrapper()
 
       search.autocomplete.on("autocomplete:shown", event => {
@@ -134,14 +134,14 @@ const SiteSearch = () => {
         }
       })
     }
-  
+
     if (enableSearch && scriptLoaded) {
       init()
     }
-  
+
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [scriptLoaded])
-  
+
   if (!enableSearch) {
     return (
       <>
@@ -151,14 +151,14 @@ const SiteSearch = () => {
       </>
     )
   }
-  
+
   return (
     <>
       <div className="SiteSearch" {...(searchFocused ? {"is-focused" : ""} : {})}>
         <div className="SiteSearch--input-wrapper">
           <input id="SiteSearch--input" className="SiteSearch--input"
           onFocus={onSearchFocus} onBlur={onSearchBlur}
-          type="text" spellCheck="false" autoComplete="false" placeholder="Search docs..."/>
+          type="text" spellCheck="false" autoComplete="false" placeholder="ドキュメントを検索..."/>
           <div className="SiteSearch--input-icon">
             <AccessibleSVG title="Search icon (depiction of a magnifying glass)" viewBox="0 0 16 16">
               <path d="M11.999 10.585l3.458 3.458a1 1 0 01-1.414 1.414L10.585 12a6.5 6.5 0 111.414-1.414zM6.75 11.5a4.75 4.75 0 100-9.5 4.75 4.75 0 000 9.5z"/>
@@ -169,6 +169,5 @@ const SiteSearch = () => {
     </>
   )
 }
-  
+
 export default SiteSearch
-  

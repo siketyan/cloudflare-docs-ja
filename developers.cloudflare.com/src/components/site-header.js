@@ -33,16 +33,16 @@ const SiteHeader = () => (
 
       <div className="SiteHeader--nav">
         <Link className="SiteHeader--nav-link" to="/docs">
-          <span>Docs</span>
+          <span>ドキュメント</span>
         </Link>
         <Link className="SiteHeader--nav-link" to="/sponsorships">
-          <span>Sponsorships</span>
+          <span>スポンサー</span>
         </Link>
         <a className="SiteHeader--nav-link" href="https://cloudflare.github.io">
-          <span>Open Source</span>
+          <span>オープンソース</span>
         </a>
         <a className="SiteHeader--nav-link" href="https://blog.cloudflare.com/serverlist/">
-          <span>Newsletter</span>
+          <span>ニュース</span>
         </a>
       </div>
 
