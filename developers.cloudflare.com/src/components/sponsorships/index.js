@@ -31,182 +31,182 @@ import "../../css/components/sponsorships.css"
 
 const sponsorships = [{
     title:"Yarn",
-    description:"A package manager for Node that creates a lockfile for dependencies and cache’s packages for future projects.",
+    description:"ロックファイルを作成し将来のプロジェクトに向けてパッケージをキャッシュする Node のためのパッケージマネージャ．",
     logo: yarnIMG,
     siteURL:"https://yarnpkg.com/en/",
     sourceURL:"https://github.com/yarnpkg/yarn"
   },
   {
     title:"Moment.js",
-    description:"A library for Parsing, validating, manipulating, and displaying dates and times in JavaScript.",
+    description:"JavaScript で日時をパース，検証，操作，表示するためのライブラリ．",
     logo: momentjsIMG,
     siteURL:"https://momentjs.com/",
     sourceURL:"https://github.com/moment/moment/"
   },
   {
     title:"D3",
-    description:"A way to bind data to the DOM, and then apply data-driven transformations to the document.",
+    description:"DOM へデータをバインドし，ドキュメントをデータ駆動で変換する．",
     logo: d3IMG,
     siteURL:"https://d3js.org/",
     sourceURL:"https://github.com/d3/d3"
   },
   {
     title:"OpenAI",
-    description:"A non-profit research company aiming to build safe Artificial General Intelligence (AGI), and ensure AGI's benefits are as widely and evenly distributed as possible.",
+    description:"安全な Artificial General Intelligence (AGI) をつくり， AGI の良さを広く平らに伝える非営利の研究組織．",
     logo: openaiIMG,
     siteURL:"https://openai.com/",
     sourceURL:"https://github.com/openai"
   },
   {
     title:"UNPKG",
-    description:"A fast, global Content Delivery Network for everything on NPM.",
+    description:"NPM 上のすべてのための高速でグローバルなコンテンツデリバリーネットワーク．",
     logo: unpkgIMG,
     siteURL:"https://unpkg.com/",
     sourceURL:"https://github.com/unpkg/unpkg"
   },
   {
     title:"HTML5 Boilerplate",
-    description:"A fast, robust, and adaptable way to create web apps or sites.",
+    description:"Web アプリやサイトを作るための高速，堅牢で順応な方法．",
     logo: html5boilerplateIMG,
     siteURL:"https://html5boilerplate.com/",
     sourceURL:"https://github.com/h5bp/html5-boilerplate"
   },
   {
     title:"cdnjs",
-    description:"A free, public Content Delivery Network for popular libraries.",
+    description:"人気ライブラリのための無料の共有コンテンツデリバリーネットワーク．",
     logo:cdnjsIMG,
     siteURL:"https://cdnjs.com/",
     sourceURL:"https://github.com/cdnjs/cdnjs"
   },
   {
     title:"Webpack",
-    description:"A module bundler for combining JavaScript files.",
+    description:"JavaScript ファイルを結合するモジュールバンドラ．",
     logo:webpackIMG,
     siteURL:"https://webpack.js.org/",
     sourceURL:"https://github.com/webpack/webpack"
   },
   {
     title:"Node.js",
-    description:"A JavaScript runtime built on Chrome’s V8 JavaScript engine.",
+    description:"Chrome の V8 JavaScript エンジンで作られた JavaScript ランタイム．",
     logo:nodejsIMG,
     siteURL:"https://nodejs.org/",
     sourceURL:"https://github.com/nodejs/node"
   },
   {
     title:"React",
-    description:"A JavaScript library for building user interfaces created by facebook.",
+    description:"ユーザインターフェースを作るための Facebook 製 JavaScript ライブラリ．",
     logo:reactIMG,
     siteURL:"https://reactjs.org/",
     sourceURL:"https://github.com/facebook/react/"
   },
   {
     title:"git",
-    description:"A version control system that allows millions people across the world to collaborate on coding projects.",
+    description:"世界中の人々がプロジェクトのコーディングに携わることのできるバージョン管理システム．",
     logo:gitIMG,
     siteURL:"https://git-scm.com/",
     sourceURL:"https://github.com/git/git"
   },
   {
     title:"Kali Linux",
-    description:"Kali Linux is an advanced penetration testing Linux distribution.",
+    description:"Kali Linux はペネトレーションテストのための高度な Linux ディストリビューションです．",
     logo:kaliIMG,
     siteURL:"https://www.kali.org/",
     sourceURL:"https://github.com/offensive-security"
   },
   {
     title:"ClickHouse",
-    description:"ClickHouse is a free analytics DBMS for big data",
+    description:"ClickHouse はビッグデータのための無料アナリティクス DBMS です．",
     logo:clickhouseIMG,
     siteURL:"https://clickhouse.tech/",
     sourceURL:"https://github.com/ClickHouse/ClickHouse"
   },
   {
     title:"Phalcon",
-    description:"Phalcon is a full-stack PHP framework delivered as a C-extension",
+    description:"Phalcon は C 拡張のフルスタック PHP フレームワークです．",
     logo:phalconIMG,
     siteURL:"https://phalcon.io/",
     sourceURL:"https://github.com/phalcon/cphalcon/"
   },
   {
     title:"JsDelivr",
-    description:"JsDelivr is a public, open-source CDN (Content Delivery Network) developed by ProspectOne, focused on performance, reliability, and security.",
+    description:"JsDelivr は，パフォーマンス・信頼性・セキュリティを重視し ProspectOne によって開発された，無料の共有 CDN (コンテンツデリバリーネットワーク) です．",
     logo:jsdelivrIMG,
     siteURL:"https://www.jsdelivr.com/",
     sourceURL:"https://github.com/jsdelivr/jsdelivr"
   },
   {
     title:"freeCodeCamp",
-    description:"An online coding bootcamp that teaches you to code for free.",
+    description:"無料でコーディングについて教えるオンラインのブートキャンプ．",
     logo:freecodecampIMG,
     siteURL:"https://freecodecamp.org/",
     sourceURL:"https://github.com/freeCodeCamp/freeCodeCamp"
   },
   {
     title:"Uppy",
-    description:"A sleek, modular file uploader that integrates seamlessly with any application.",
+    description:"様々なアプリケーションと連携する，柔軟でモジュラなファイルアップローダ．",
     logo:uppyIMG,
     siteURL:"https://uppy.io/",
     sourceURL:"https://github.com/transloadit/uppy"
   },
   {
     title:"Redux",
-    description:"A predictable state container for JavaScript apps. It’s commonly used with React to make state management simple.",
+    description:"JavaScript アプリ用の状態コンテナ．ステート管理をシンプルにするために React とともに広く使用されています．",
     logo:reduxIMG,
     siteURL:"https://redux.js.org/",
     sourceURL:"https://github.com/reactjs/redux/"
   },
   {
     title:"jQuery",
-    description:"The Write Less, Do More, JavaScript Library.",
+    description:"少しのコードで，いろいろできる，JavaScript ライブラリ．",
     logo:jqueryIMG,
     siteURL:"https://jquery.com",
     sourceURL:"https://github.com/jquery/jquery"
   },
   {
     title:"Select2",
-    description:"A jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results.",
+    description:"jQuery ベースの，セレクトボックスの代替．検索，リモートデータセット，無限スクロールをサポートします．",
     logo:select2IMG,
     siteURL:"https://select2.org/",
     sourceURL:"https://github.com/select2/select2"
   },
   {
     title:"Gulp",
-    description:"A toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something.",
+    description:"開発ワークフロー上の苦痛・手間なタスクを自動化するツールキットで，周りを汚さずにビルドできます．",
     logo:gulpIMG,
     siteURL:"https://gulpjs.com/",
     sourceURL:"https://github.com/gulpjs/gulp"
   },
   {
     title:"impress.js",
-    description:"A presentation tool made to leverage the power of css3 transforms and transitions.",
+    description:"CSS3 トランスフォームとトランジションの力を活かしたプレゼンテーションツール．",
     logo:impressjsIMG,
     siteURL:"https://impress.js.org/",
     sourceURL:"https://github.com/impress/impress.js"
   },
   {
     title:"Express",
-    description:"A fast, minimalist web framework for Node.js.",
+    description:"高速で最小の Node.js 向け Web フレームワーク．",
     logo:expressjsIMG,
     siteURL:"https://expressjs.com/",
     sourceURL:"https://github.com/expressjs/express"
   },
   {
     title:"REVEAL.JS",
-    description:"A framework for making powerpoint-like presentations using HTML, CSS and JS.",
+    description:"HTML, CSS と JS で PowerPoint ライクなプレゼンテーションを作成するフレームワーク．",
     logo:revealjsIMG,
     siteURL:"https://revealjs.com/#/",
     sourceURL:"https://github.com/hakimel/reveal.js"
   },
   {
     title:"three.js",
-    description:"A JavaScript library used to create and display animated 3D computer graphics in a web browser.",
+    description:"3D コンピュータグラフィックアニメーションを Web ブラウザで作成・表示する JavaScript ライブラリ．",
     logo:threejsIMG,
     siteURL:"https://threejs.org/",
     sourceURL:"https://github.com/mrdoob/three.js/"
   },
   {
     title: "Bootstrap",
-    description: "A responsive, mobile-first HTML, CSS and JS styling library.",
+    description: "レスポンシブでモバイルファーストな HTML, CSS と JS のスタイリングライブラリ．",
     logo: bootstrapIMG,
     siteURL: "https://getbootstrap.com/",
     sourceURL: "https://github.com/twbs/bootstrap"
@@ -227,8 +227,8 @@ export default () => (
         <p>{item.description}</p>
       </div>
       <div className="sponsorship-links">
-        <a className="sponsorship-link-site more" target="_blank" rel="noopener noreferrer" href={item.siteURL}>Visit site</a>
-        <a className="sponsorship-link-github more" target="_blank" rel="noopener noreferrer" href={item.sourceURL}>Code on GitHub</a>
+        <a className="sponsorship-link-site more" target="_blank" rel="noopener noreferrer" href={item.siteURL}>サイトを訪問する</a>
+        <a className="sponsorship-link-github more" target="_blank" rel="noopener noreferrer" href={item.sourceURL}>コードを GitHub で見る</a>
       </div>
     </div>)
     })}
